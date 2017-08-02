@@ -1,10 +1,10 @@
-## Chinese Flashcards
+## Panda Cards
 
 ### Background
 
-Chinese Flashcards provides a visually flashy and engaging way for Mandarin Chinese language learners to quickly and easily practice their knowledge and memorization of Chinese characters.
+Panda Chinese Flashcards provides a visually flashy and engaging way for Mandarin Chinese language learners to quickly and easily practice their knowledge and memorization of Chinese characters.
 
-The user is presented with a series of cards that contain educational material.
+The user selects a level of difficulty and is presented with a series of cards that contain vocabulary words and their corresponding Chinese characters.
 
 ### Functionality & MVP
 
@@ -15,6 +15,7 @@ There are multiple settings for users to modify their experience with the flashc
 - [ ] Show character stroke order animation
 - [ ] Have a quiz mode where the user can try to correctly answer multiple choice questions
 - [ ] Keyboard controls
+- [ ] Choose a level of difficulty
 
 In addition, this project will include:
 - [ ] An About modal describing the background and possible settings for the game
@@ -34,14 +35,13 @@ This project will be implemented with the following technologies:
 
 Other files involved in this project:
 - `board.js`: this script will handle the logic for creating and updating the necessary `Easel.js` elements and rendering them to the DOM.
-- `card.js`: this script will handle the logic for user interaction with a single card, including giving hints and containing its own state
-- `quiz.js`: this script will handle the logic for quiz mode
+- `card.js`: this script will handle the logic for user interaction with a single card, including giving hints and containing its own state (hidden or flipped)
+- `quiz.js`: this script will handle the logic for quiz mode, including allowing the user to select a level of difficulty
 
 ### Implementation Timeline
 
 **Day 1**: Setup all necessary Node modules, including getting webpack up and running and `Easel.js` installed.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file and the bare bones of all scripts outlined above.  Learn the basics of `Easel.js`.  Goals for the day:
 
-- Get a green bundle with `webpack`
 - Learn enough `Easel.js` to render an object to the `Canvas` element
 
 **Day 2**: Dedicate this day to learning the `Easel.js` API.  First, build out the `Card` object to connect to the `Board` object.  Then, use `board.js` to create and render cards. Goals for the day:
@@ -62,5 +62,5 @@ Other files involved in this project:
 ### Bonus features
 
 - [ ] Add playable audio for providing examples of pronunciation
-- [ ] Add multiple levels of difficulty
+- [ ] Add sound effects
 - [ ] Allow further customization of quiz questions, such as allowing users to upload their own questions or cards
