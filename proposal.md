@@ -2,7 +2,7 @@
 
 ### Background
 
-Panda Chinese Flashcards provides a visually flashy and engaging way for Mandarin Chinese language learners to quickly and easily practice their knowledge and memorization of Chinese characters.
+Panda Chinese Flashcards provides a visually flashy and engaging way for Mandarin Chinese language learners to quickly and easily practice their knowledge and memorization of Chinese characters and their associated pinyin pronunciation.
 
 The user selects a level of difficulty and is presented with a series of cards that contain vocabulary words and their corresponding Chinese characters.
 
