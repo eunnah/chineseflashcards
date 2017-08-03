@@ -31,7 +31,7 @@ This project will be implemented with the following technologies:
 - Vanilla JavaScript and `jquery` for overall structure and game logic
 - Babel
 - Webpack to bundle and serve up the various scripts
-- `Easel.js` with `HTML5 Canvas` for DOM manipulation and rendering
+- `view.js` with `HTML5 Canvas` for DOM manipulation and rendering
 
 Other files involved in this project:
 - `board.js`: this script will handle the logic for creating and updating the necessary `Easel.js` elements and rendering them to the DOM.

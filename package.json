@@ -1,0 +1,27 @@
+{
+  "name": "JSProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "css-loader": "^0.28.4",
+    "hanzi-writer": "^0.2.0",
+    "style-loader": "^0.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eunnah/chineseflashcards.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eunnah/chineseflashcards/issues"
+  },
+  "homepage": "https://github.com/eunnah/chineseflashcards#readme"
+}
