@@ -11,18 +11,20 @@
 
   <body>
     <div class="nav">
-      <a href="#home">Quiz Me!</a>
+      <!-- <a href="#home">Quiz Me!</a> -->
       <a href="https://github.com/eunnah/chineseflashcards" target="_blank">GitHub</a>
       <div class="dropdown">
         <button class="dropbtn">Level</button>
         <div class="dropdown-content">
-          <a href="#">Easy</a>
-          <a href="#">Medium</a>
-          <a href="#">Challenging</a>
-          <a href="#">Randomize</a>
+          <input id="easy" type="checkbox" checked="checked">
+          <label for="easy">Easy</label>
+          <input id="medium" type="checkbox" checked="checked">
+          <label for="medium">Medium</label>
+          <input id="hard" type="checkbox" checked="checked">
+          <label for="hard">Hard</label>
         </div>
       </div>
-      <a href="#news">Other Mandarin Resources</a>
+      <a href="#" id="myBtn">Instructions</a>
     </div>
 
     <h1>Panda Cards</h1><img src="./images/panda-icon.png">
@@ -36,6 +38,34 @@
       </div>
     </section><br>
     <button class="reanimate-button">Show answer</button> <button class="next-button">Next card</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>How to play Panda Cards</h2>
+        </div>
+        <div class="modal-body">
+          <p>Practice your Mandarin character reading and writing.</p>
+          <p>Clicking each card will flip it to reveal its meaning in English, pinyin spelling, and character stroke order. Click "Show Answer" to replay the stroke order animation. Click "Next card" to receive the next random flashcard.</p>
+        </div>
+        <div class="modal-footer">
+          <h3>Happy learning!</h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="errorModal" class="errorModal">
+
+      <!-- Modal content -->
+      <div class="errorModal-content">
+        <span class="errorClose">&times;</span>
+        <p>You must select at least one level!</p>
+      </div>
+
+    </div>
 
   </body>
 </html>
