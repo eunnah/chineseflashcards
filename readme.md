@@ -14,7 +14,7 @@ There are multiple settings for users to modify their experience with the flashc
 - [ ] View and replay character stroke order animation
 - [ ] Choose a level of difficulty
 
-![gameplay screenshot](http://example.com)
+![gameplay screenshot](https://raw.githubusercontent.com/eunnah/chineseflashcards/master/images/screenshot1.png)
 
 - A simple modal provides instructions on how to navigate the flashcards.
 
