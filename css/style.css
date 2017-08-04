@@ -1,7 +1,7 @@
 .container {
   margin: 0 auto;
   width: 220px;
-  height: 300px;
+  height: 340px;
   display: flex;
   align-items: center;
   align-content: center;
@@ -44,6 +44,7 @@
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
   backface-visibility: hidden;
+  justify-content: center;
 }
 .card .front {
   margin: 0 auto;
