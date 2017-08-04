@@ -25,7 +25,7 @@ This project is implemented with the following technologies:
 - Webpack to bundle and serve up the various scripts
 - `view.js` for DOM manipulation and rendering
 
-Other files that will eventually be added to this project:
+Another file that will eventually be added to this project:
 - `quiz.js`: this script will handle the logic for quiz mode, including allowing the user to select a level of difficulty and get scored on a series of randomized questions.
 
 ### Bonus features
