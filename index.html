@@ -10,15 +10,32 @@
   </head>
 
   <body>
-    <h1>Panda Cards</h1>
+    <div class="nav">
+      <a href="#home">Quiz Me!</a>
+      <a href="https://github.com/eunnah/chineseflashcards" target="_blank">GitHub</a>
+      <div class="dropdown">
+        <button class="dropbtn">Level</button>
+        <div class="dropdown-content">
+          <a href="#">Easy</a>
+          <a href="#">Medium</a>
+          <a href="#">Challenging</a>
+          <a href="#">Randomize</a>
+        </div>
+      </div>
+      <a href="#news">Other Mandarin Resources</a>
+    </div>
+
+    <h1>Panda Cards</h1><img src="./images/panda-icon.png">
     <script src="./lib/bundle.js"></script>
 
     <section class="container">
       <div class="card">
         <div class="front"></div>
-        <div class="back"></div>
+        <div class="back" id="target">
+        </div>
       </div>
-    </section>
+    </section><br>
+    <button class="reanimate-button">Show answer</button> <button class="next-button">Next card</button>
 
   </body>
 </html>
